@@ -8,6 +8,7 @@ def reverse_each_word(sentence)
     reversed_word_str = reversed_word.join
     reversed_array_sentence << reversed_word_str
   end 
+  binding.pry
   reversed_array_sentence.join(' ')
 end
  
